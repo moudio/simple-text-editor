@@ -25,24 +25,11 @@ function makeUnderline(elem) {
 }
 
 function alignText(elem, alignType) {
-  Array.from(document.getElementsByClassName('align')).forEach((button) => {
-    button.classList.remove('active');
-  });
-  elem.classList.add('active');
-  switch (alignType) {
-    case 'left-align':
-      document.getElementById('text-output').style.textAlign = 'left';
-
-      break;
-    case 'right-align':
-      document.getElementById('text-output').style.textAlign = 'right';
-      break;
-    case 'center':
-      document.getElementById('text-output').style.textAlign = 'center';
-      break;
-    default:
-      document.getElementById('text-output').style.textAlign = 'center';
-
-      break;
+  let buttonsList = document.getElementsByClassName('align');
+  for (let i = 0; i < buttonsList.length; i++) {
+    buttonsList[i].classList.remove('active');
   }
+  elem.classList.add('active');
+  let output = document.getElementById('text-output');
+  output.style.textAlign = alignType;
 }
