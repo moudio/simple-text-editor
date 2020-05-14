@@ -1,4 +1,4 @@
-# Text_editor
+# Simple Text Editor
 ![screenshot](./screenshot.png)
 
 ## Description:
@@ -15,11 +15,11 @@ Mouhamadou Diouf ( <a href="https://github.com/MouhaDiouf"> @mouhad </a>)
 
 ## Contributing
 
-1. Fork it (https://github.com/MouhaDiouf/text-editor)
+1. Fork it (https://github.com/MouhaDiouf/simple-text-editor)
 2. Create your feature branch (git checkout -b feature/[choose-a-name])
 3. Commit your changes (git commit -am 'What this commit will fix/add')
 4. Push to the branch (git push origin feature/[chosen name])
 5. Create a new Pull Request
 
 ## Live version:
-<a href="https://mouhadiouf.github.io/text-editor/" target="_blank">Text Editor</a>
+<a href="https://mouhadiouf.github.io/simple-text-editor/" target="_blank">Text Editor</a>
